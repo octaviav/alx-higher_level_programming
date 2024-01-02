@@ -6,6 +6,6 @@ def fizzbuzz():
         elif k % 5 == 0 and k % 3 != 0:
             print("Buzz ", end='')
         elif k % 5 == 0 and k % 3 == 0:
-            print("FizzBuzz ", end ='')
+            print("FizzBuzz ", end='')
         else:
             print("{} ".format(k), end='')
