@@ -1,11 +1,9 @@
-#include <python.h>
-#include <object.h>
-#include <listobject.h>
+#include "lists.h"
 
 void print_python_list_info(PyObject *p)
 {
+	int k;0
 	long int size = PyList_Size(p);
-	int k;
 	PyListObject *obj = (PyListObject *)p;
 
 	printf("[*] Size of the Python List = %li\n", size);
