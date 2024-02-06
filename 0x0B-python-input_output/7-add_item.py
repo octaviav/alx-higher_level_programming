@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Append all input arguments to a Python list and then store the list in a file."""
+"""Adds arguments to a Python lis ans stores them in a file."""
 import sys
 
 if __name__ == "__main__":
