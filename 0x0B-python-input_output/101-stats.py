@@ -3,8 +3,8 @@
 
 After ten lines or the input of a keyboard interruption (CTRL + C),
 prints the following stats:
-    - Total file size up to a point.
-    - Count of read status codes up to a point.
+    - Total file size up to that point.
+    - Count of read status codes up to that point.
 """
 
 
